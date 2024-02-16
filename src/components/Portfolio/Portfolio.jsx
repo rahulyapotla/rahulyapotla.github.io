@@ -1,0 +1,42 @@
+import React from 'react'
+import './portfolio.css'
+
+const data = [
+    {
+        id:1,
+        image: "djf",
+        title: 'title',
+        github: 'gsla',
+        demo: 'dhjksgl'
+    }
+]
+
+
+const Portfolio = () => {
+    return (
+        <section id='section'>
+            <h5>My Recent Work</h5>
+            <h2>Portfolio</h2>
+            <div className='container portfolio__container'>
+                {
+                    data.map(({id, image, title, github, demo}) => {
+                        return (
+                            <article key={id} className='portfolio__item'>
+                                <div className="portfolio__item-image">
+                                    <img src={"data:image/jpeg;base64,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"} alt="" />
+                                </div>
+                                <h3>title</h3>
+                                <div className="portfolio__item-cta">
+                                    <a href="https://github.com" className='btn' target='_blank'>Github</a>
+                                    <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+                                </div>
+                            </article>
+                        )
+                    })
+                }
+            </div>
+        </section>
+    )
+}
+
+export default Portfolio
