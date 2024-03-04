@@ -1,6 +1,9 @@
 import React from "react";
 import './services.css'
 import { FaCheck } from "react-icons/fa6";
+import archlogo from "../../assets/archlogo.png"
+import PlanonLogo2 from "../../assets/PlanonLogo2.png"
+import IBILogo from "../../assets/IBILogo.jpeg"
 
 const Services = () => {
     return (
@@ -10,9 +13,15 @@ const Services = () => {
             <div className=".container services__container">
                 <article className="service">
                     <div className="service__head">
-                        <h3>
-                            UI/UX Design
-                        </h3>
+                     <img src={archlogo} alt="About Image" className='top' />
+                    </div>
+                    <ul className="service__list">
+                      <h3>Technologies I worked on:</h3> <small>Java, Spring Boot, REST API, MongoDB</small>
+                    </ul>
+                </article>
+                <article className="service">
+                    <div className="service__head">
+                    <img src={PlanonLogo2} alt="About Image" className='top' />
                     </div>
                     <ul className="service__list">
                         <li>
@@ -39,9 +48,7 @@ const Services = () => {
                 </article>
                 <article className="service">
                     <div className="service__head">
-                        <h3>
-                            Web Development
-                        </h3>
+                    <img src={IBILogo} alt="About Image" className='top' />
                     </div>
                     <ul className="service__list">
                         <li>
