@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rahulyapotla/rahulyapotla.github.io/static/css/main.02371920.css",
-    "main.js": "/rahulyapotla/rahulyapotla.github.io/static/js/main.f4c00b93.js",
-    "static/media/MyPicture.jpeg": "/rahulyapotla/rahulyapotla.github.io/static/media/MyPicture.865cd7144870aa594980.jpeg",
-    "static/media/jntuhlogo.jpeg": "/rahulyapotla/rahulyapotla.github.io/static/media/jntuhlogo.b23d61a025436482255b.jpeg",
-    "index.html": "/rahulyapotla/rahulyapotla.github.io/index.html",
-    "main.02371920.css.map": "/rahulyapotla/rahulyapotla.github.io/static/css/main.02371920.css.map",
-    "main.f4c00b93.js.map": "/rahulyapotla/rahulyapotla.github.io/static/js/main.f4c00b93.js.map"
+    "main.css": "/rahulyapotla.github.io/static/css/main.02371920.css",
+    "main.js": "/rahulyapotla.github.io/static/js/main.75429b4c.js",
+    "static/media/MyPicture.jpeg": "/rahulyapotla.github.io/static/media/MyPicture.865cd7144870aa594980.jpeg",
+    "static/media/jntuhlogo.jpeg": "/rahulyapotla.github.io/static/media/jntuhlogo.b23d61a025436482255b.jpeg",
+    "index.html": "/rahulyapotla.github.io/index.html",
+    "main.02371920.css.map": "/rahulyapotla.github.io/static/css/main.02371920.css.map",
+    "main.75429b4c.js.map": "/rahulyapotla.github.io/static/js/main.75429b4c.js.map"
   },
   "entrypoints": [
     "static/css/main.02371920.css",
-    "static/js/main.f4c00b93.js"
+    "static/js/main.75429b4c.js"
   ]
 }
